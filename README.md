@@ -121,7 +121,7 @@ I'm drawn to coding because it lets me turn an idea into something useful. I lik
 </p>
 
 <!--START_SECTION:profile-updated-->
-<p align="center"><sub>GitHub data snapshot · September 14, 2026</sub></p>
+<p align="center"><sub>Updated daily from GitHub · Last refreshed 2026-09-14 15:17 UTC</sub></p>
 <!--END_SECTION:profile-updated-->
 
 ---
@@ -132,13 +132,13 @@ I'm drawn to coding because it lets me turn an idea into something useful. I lik
 **🦉 My Coding Rhythm**
 
 ```text
-🌞 Morning                — commits           —
-🌆 Daytime                — commits           —
-🌃 Evening                — commits           —
-🌙 Night                  — commits           —
+🌞 Morning            21 commits     ██████░░░░░░░░░░░░░░  28.4%
+🌆 Daytime            18 commits     █████░░░░░░░░░░░░░░░  24.3%
+🌃 Evening            35 commits     █████████░░░░░░░░░░░  47.3%
+🌙 Night              0 commits      ░░░░░░░░░░░░░░░░░░░░   0.0%
 ```
 
-<sub>Awaiting first update.</sub>
+<sub>74 public commits · 2025-09-15 – 2026-09-14 · New York time<br>Based on commit author times on default branches. Morning 06–12 · Daytime 12–18 · Evening 18–24 · Night 00–06.</sub>
 <!--END_SECTION:coding-rhythm-->
 
 ---
