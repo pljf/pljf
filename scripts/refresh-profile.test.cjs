@@ -91,7 +91,7 @@ test('README updates only generated sections and handles no commits without NaN'
   assert(updated.startsWith('Personal introduction\n'));
   assert(updated.includes('\nMy projects\n'));
   assert(updated.endsWith('\nContact links'));
-  assert(updated.includes('New York time'));
+  assert(!/public commits|New York time|Based on commit author times/.test(updated));
   assert(updated.includes('2026-09-14 12:00 UTC'));
   assert(!/NaN|Infinity|Awaiting/.test(updated));
   assert.throws(() => updateReadme('No markers', {}, codingRhythm([]), now.toISOString()), /marker/);

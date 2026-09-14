@@ -133,7 +133,6 @@ I'm drawn to coding because it lets me turn an idea into something useful. I lik
 🌙 Night              0 commits      ░░░░░░░░░░░░░░░░░░░░   0.0%
 ```
 
-<sub>74 public commits · 2025-09-15 – 2026-09-14 · New York time<br>Based on commit author times on default branches. Morning 06–12 · Daytime 12–18 · Evening 18–24 · Night 00–06.</sub>
 <!--END_SECTION:coding-rhythm-->
 
 ---

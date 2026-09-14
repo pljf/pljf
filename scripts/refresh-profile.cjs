@@ -177,7 +177,7 @@ function updateReadme(readme, calendar, rhythm, updatedAt) {
     const bars = Math.round(percent / 5);
     return `${label.padEnd(22)}${`${count} commits`.padEnd(15)}${'█'.repeat(bars)}${'░'.repeat(20 - bars)} ${percent.toFixed(1).padStart(5)}%`;
   });
-  const content = `**🦉 My Coding Rhythm**\n\n\`\`\`text\n${rows.join('\n')}\n\`\`\`\n\n<sub>${rhythm.total} public commits · ${calendar.start} – ${calendar.end} · New York time<br>Based on commit author times on default branches. Morning 06–12 · Daytime 12–18 · Evening 18–24 · Night 00–06.</sub>`;
+  const content = `**🦉 My Coding Rhythm**\n\n\`\`\`text\n${rows.join('\n')}\n\`\`\``;
   const updated = updatedAt.replace('T', ' ').slice(0, 16) + ' UTC';
   return replaceSection(replaceSection(readme, 'coding-rhythm', content), 'profile-updated',
     `<p align="center"><sub>Updated daily from GitHub · Last refreshed ${updated}</sub></p>`);
