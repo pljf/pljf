@@ -103,12 +103,7 @@ I'm drawn to coding because it lets me turn an idea into something useful. I lik
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/reference-streak-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/reference-streak-light.svg">
-    <img src="assets/reference-streak-light.svg" alt="GitHub Streak" width="48%" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/reference-stats-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/reference-stats-light.svg">
-    <img src="assets/reference-stats-light.svg" alt="GitHub Stats" width="48%" />
+    <img src="assets/reference-streak-light.svg" alt="GitHub Streak" width="495" />
   </picture>
 </p>
 
