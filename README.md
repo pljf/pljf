@@ -120,13 +120,15 @@ I'm drawn to coding because it lets me turn an idea into something useful. I lik
   </picture>
 </p>
 
+<!--START_SECTION:profile-updated-->
 <p align="center"><sub>GitHub data snapshot · September 14, 2026</sub></p>
+<!--END_SECTION:profile-updated-->
 
 ---
 
 ## ⏰ Coding Habits
 
-<!--START_SECTION:waka-->
+<!--START_SECTION:coding-rhythm-->
 **🦉 My Coding Rhythm**
 
 ```text
@@ -137,7 +139,7 @@ I'm drawn to coding because it lets me turn an idea into something useful. I lik
 ```
 
 <sub>Awaiting first update.</sub>
-<!--END_SECTION:waka-->
+<!--END_SECTION:coding-rhythm-->
 
 ---
 
