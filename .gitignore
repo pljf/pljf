@@ -1,0 +1,22 @@
+# Local previews, source snapshots, and earlier design studies
+.preview/
+contribution-study/
+drafts/
+name-study/
+reference-draft/
+banner-prompt.txt
+
+# Publish only assets used by the current profile
+assets/*
+!assets/intro-dark.svg
+!assets/intro-light.svg
+!assets/intro-mobile-dark.svg
+!assets/intro-mobile-light.svg
+!assets/reference-contributions-dark.svg
+!assets/reference-contributions-light.svg
+!assets/reference-streak-dark.svg
+!assets/reference-streak-light.svg
+!assets/reference-stats-dark.svg
+!assets/reference-stats-light.svg
+!assets/reference-activity-dark.svg
+!assets/reference-activity-light.svg
