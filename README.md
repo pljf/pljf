@@ -5,7 +5,7 @@
     <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/intro-mobile-dark.svg">
     <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/intro-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.svg">
-    <img src="assets/intro-light.svg" width="1000" alt="Patrick Luo. Computer Science and Mathematics at Hunter College, CUNY. New York City. Expected graduation May 2027." />
+    <img src="assets/intro-light.svg" width="1000" alt="Patrick Luo. Full-Stack Development. Machine Learning and AI. Turning ideas into useful tools. Always learning something new. Computer Science and Mathematics at Hunter College, CUNY. New York City. Expected graduation May 2027." />
   </picture>
 </a>
 

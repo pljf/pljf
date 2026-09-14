@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="396" viewBox="0 0 600 396" role="img" aria-labelledby="title description">
 <title id="title">Patrick Luo — kinetic introduction</title>
-<desc id="description">Patrick Luo. Computer Science and Mathematics at Hunter College, CUNY. New York City. Expected graduation May 2027. Large outline echoes converge while the letters assemble from opposing halves. A sweep fills the name, then the details appear. The animation plays once. Reduced-motion preferences show the complete still composition.</desc>
+<desc id="description">Patrick Luo. Full-Stack Development. Machine Learning &amp; AI. Turning ideas into useful tools. Always learning something new. Computer Science and Mathematics at Hunter College, CUNY. New York City. Expected graduation May 2027. Large outline echoes converge while the letters assemble from opposing halves. A sweep fills the name, then the details appear. The name animation plays once, followed by a looping typing line below it. Reduced-motion preferences show the complete still composition with Full-Stack Development below the name.</desc>
 <style>
 :root{--elapsed:0s}
 .static-name{fill:#f0f6fc}
@@ -63,9 +63,54 @@
 <g class="piece" style="--dx:-68px;--dy:-42px;--over:3px;--stagger:0.528s"><g clip-path="url(#upper)"><use class="edge" href="#glyph-9"/><g clip-path="url(#ink-wipe)"><use fill="#f0f6fc" href="#glyph-9"/></g></g></g><g class="piece" style="--dx:68px;--dy:42px;--over:-3px;--stagger:0.528s"><g clip-path="url(#lower)"><use class="edge" href="#glyph-9"/><g clip-path="url(#ink-wipe)"><use fill="#f0f6fc" href="#glyph-9"/></g></g></g></g>
  </g>
 </g>
+<style>
+.typing-banner text{font-family:'Fira Code',Consolas,monospace;font-size:24px;font-weight:500;font-kerning:none;font-variant-ligatures:none}
+@media(prefers-reduced-motion:no-preference){
+.typing-fallback{display:none}
+.typing-line{display:inline;opacity:0}
+.typing-caret{transform:translateX(0px)}
+.typing-line-0{animation:typing-scene 20s step-end calc(2.6s - var(--elapsed, 0s)) infinite}
+.typing-clip-0{animation:typing-reveal-0 20s steps(22,end) calc(2.6s - var(--elapsed, 0s)) infinite}
+.typing-caret-0{animation:typing-travel-0 20s steps(22,end) calc(2.6s - var(--elapsed, 0s)) infinite,typing-blink .8s step-end calc(0s - var(--elapsed, 0s)) infinite}
+@keyframes typing-reveal-0{0%{width:0px}8.25%,14.25%{width:316.8px}20%,100%{width:0px}}
+@keyframes typing-travel-0{0%{transform:translateX(0px)}8.25%,14.25%{transform:translateX(316.8px)}20%,100%{transform:translateX(0px)}}
+.typing-line-1{animation:typing-scene 20s step-end calc(7.6s - var(--elapsed, 0s)) infinite}
+.typing-clip-1{animation:typing-reveal-1 20s steps(21,end) calc(7.6s - var(--elapsed, 0s)) infinite}
+.typing-caret-1{animation:typing-travel-1 20s steps(21,end) calc(7.6s - var(--elapsed, 0s)) infinite,typing-blink .8s step-end calc(0s - var(--elapsed, 0s)) infinite}
+@keyframes typing-reveal-1{0%{width:0px}8.25%,14.25%{width:302.4px}20%,100%{width:0px}}
+@keyframes typing-travel-1{0%{transform:translateX(0px)}8.25%,14.25%{transform:translateX(302.4px)}20%,100%{transform:translateX(0px)}}
+.typing-line-2{animation:typing-scene 20s step-end calc(12.6s - var(--elapsed, 0s)) infinite}
+.typing-clip-2{animation:typing-reveal-2 20s steps(31,end) calc(12.6s - var(--elapsed, 0s)) infinite}
+.typing-caret-2{animation:typing-travel-2 20s steps(31,end) calc(12.6s - var(--elapsed, 0s)) infinite,typing-blink .8s step-end calc(0s - var(--elapsed, 0s)) infinite}
+@keyframes typing-reveal-2{0%{width:0px}8.25%,14.25%{width:446.4px}20%,100%{width:0px}}
+@keyframes typing-travel-2{0%{transform:translateX(0px)}8.25%,14.25%{transform:translateX(446.4px)}20%,100%{transform:translateX(0px)}}
+.typing-line-3{animation:typing-scene 20s step-end calc(17.6s - var(--elapsed, 0s)) infinite}
+.typing-clip-3{animation:typing-reveal-3 20s steps(29,end) calc(17.6s - var(--elapsed, 0s)) infinite}
+.typing-caret-3{animation:typing-travel-3 20s steps(29,end) calc(17.6s - var(--elapsed, 0s)) infinite,typing-blink .8s step-end calc(0s - var(--elapsed, 0s)) infinite}
+@keyframes typing-reveal-3{0%{width:0px}8.25%,14.25%{width:417.6px}20%,100%{width:0px}}
+@keyframes typing-travel-3{0%{transform:translateX(0px)}8.25%,14.25%{transform:translateX(417.6px)}20%,100%{transform:translateX(0px)}}
+@keyframes typing-scene{0%{opacity:1}20%,100%{opacity:0}}
+@keyframes typing-blink{0%,100%{opacity:1}50%{opacity:0}}
+}
+</style>
+<defs>
+<clipPath id="typing-window-0" clipPathUnits="userSpaceOnUse"><rect class="typing-clip-0" x="0" y="0" width="0" height="36"/></clipPath>
+<clipPath id="typing-window-1" clipPathUnits="userSpaceOnUse"><rect class="typing-clip-1" x="0" y="0" width="0" height="36"/></clipPath>
+<clipPath id="typing-window-2" clipPathUnits="userSpaceOnUse"><rect class="typing-clip-2" x="0" y="0" width="0" height="36"/></clipPath>
+<clipPath id="typing-window-3" clipPathUnits="userSpaceOnUse"><rect class="typing-clip-3" x="0" y="0" width="0" height="36"/></clipPath>
+</defs>
+<g class="typing-banner" transform="translate(0 147)" fill="#20c9c5" role="img" aria-label="Full-Stack Development. Machine Learning &amp; AI. Turning ideas into useful tools. Always learning something new">
+<g class="typing-fallback" transform="translate(141.6 0)"><text x="0" y="26" textLength="316.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Full-Stack Development</text></g>
+<g class="typing-line typing-line-0" display="none" transform="translate(141.6 0)" aria-hidden="true"><g clip-path="url(#typing-window-0)"><text x="0" y="26" textLength="316.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Full-Stack Development</text></g><rect class="typing-caret typing-caret-0" x="1.5" y="5.6" width="2" height="24" rx=".5"/></g>
+<g class="typing-line typing-line-1" display="none" transform="translate(148.8 0)" aria-hidden="true"><g clip-path="url(#typing-window-1)"><text x="0" y="26" textLength="302.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Machine Learning &amp; AI</text></g><rect class="typing-caret typing-caret-1" x="1.5" y="5.6" width="2" height="24" rx=".5"/></g>
+<g class="typing-line typing-line-2" display="none" transform="translate(76.8 0)" aria-hidden="true"><g clip-path="url(#typing-window-2)"><text x="0" y="26" textLength="446.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Turning ideas into useful tools</text></g><rect class="typing-caret typing-caret-2" x="1.5" y="5.6" width="2" height="24" rx=".5"/></g>
+<g class="typing-line typing-line-3" display="none" transform="translate(91.2 0)" aria-hidden="true"><g clip-path="url(#typing-window-3)"><text x="0" y="26" textLength="417.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Always learning something new</text></g><rect class="typing-caret typing-caret-3" x="1.5" y="5.6" width="2" height="24" rx=".5"/></g>
+</g>
+<g transform="translate(0 56)">
 <g class="divider" fill="none" stroke-linecap="round"><path d="M104 157H496" stroke="#30484e" stroke-width="1"/><path d="M276 157H324" stroke="#20c9c5" stroke-width="2"/></g>
 <g font-family="Segoe UI,Arial,sans-serif">
  <g clip-path="url(#academic-window)"><g class="academic"><text x="300" y="201" text-anchor="middle" font-size="26" fill="#f0f6fc" font-weight="600">Computer Science &amp; Mathematics</text><text x="300" y="235" text-anchor="middle" font-size="24" fill="#20c9c5" font-weight="500">Hunter College, CUNY</text></g></g>
  <g clip-path="url(#location-window)"><g class="location"><text x="300" y="278" text-anchor="middle" font-size="24" fill="#a7b9c2" font-weight="400">New York City</text><text x="300" y="310" text-anchor="middle" font-size="24" fill="#a7b9c2" font-weight="400">Expected graduation May 2027</text></g></g>
+</g>
 </g>
 </svg>
