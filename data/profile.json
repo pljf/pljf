@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-30T14:17:20.797Z",
+  "updatedAt": "2026-10-31T13:42:23.763Z",
   "calendar": {
     "username": "pljf",
     "source": "https://github.com/users/pljf/contributions",
-    "captured": "2026-10-30",
-    "start": "2025-10-31",
-    "end": "2026-10-30",
+    "captured": "2026-10-31",
+    "start": "2025-11-01",
+    "end": "2026-10-31",
     "days": 365,
     "total": 549,
     "zeroDaysOmitted": true,
