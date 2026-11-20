@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-19T16:37:23.932Z",
+  "updatedAt": "2026-11-20T16:13:26.170Z",
   "calendar": {
     "username": "pljf",
     "source": "https://github.com/users/pljf/contributions",
-    "captured": "2026-11-19",
-    "start": "2025-11-20",
-    "end": "2026-11-19",
+    "captured": "2026-11-20",
+    "start": "2025-11-21",
+    "end": "2026-11-20",
     "days": 365,
-    "total": 618,
+    "total": 625,
     "zeroDaysOmitted": true,
     "active": [
       [
@@ -364,6 +364,16 @@
         "2026-11-18",
         7,
         2
+      ],
+      [
+        "2026-11-19",
+        5,
+        1
+      ],
+      [
+        "2026-11-20",
+        2,
+        1
       ]
     ]
   },
